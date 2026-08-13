@@ -15,11 +15,13 @@ import { SupportEcosystem } from './components/SupportEcosystem'
 import { PlanningEcosystem } from './components/PlanningEcosystem'
 import { CommercialsSection } from './components/CommercialsSection'
 import { ClosingSection } from './components/ClosingSection'
+import { ScrollToTop } from './components/ScrollToTop'
 
 function App() {
   return (
     <div className="min-h-screen bg-primary-900 text-slate-100 font-sans selection:bg-accent-500 selection:text-white flex flex-col">
       <Navbar />
+      <ScrollToTop />
       <main className="flex-1 w-full overflow-hidden">
         <Hero />
         <ExecutiveSummary />

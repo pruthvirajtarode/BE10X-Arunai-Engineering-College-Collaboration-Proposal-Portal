@@ -134,7 +134,7 @@ export const ClosingSection = () => {
       </section>
 
       {/* Final Recommendation & CTA */}
-      <section className="py-32 bg-primary-900 relative overflow-hidden">
+      <section id="contact" className="py-32 bg-primary-900 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-primary-900 to-slate-950 z-0"></div>
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-[800px] h-[400px] bg-accent-600/10 blur-[120px] rounded-full pointer-events-none z-0"></div>
         
